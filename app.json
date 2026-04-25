@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "SecondGoEcomerce",
-    "slug": "SecondGoEcomerce",
+    "name": "proyecto_carro",
+    "slug": "proyecto_carro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.sebaz.proyectocarro"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6e30d487-bd0f-4999-b73e-4037a12ef1c9"
+      }
     }
   }
 }
